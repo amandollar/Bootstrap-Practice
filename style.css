@@ -1,0 +1,67 @@
+/* Custom CSS */
+#carouselExample {
+    max-width: 780px; 
+    margin: auto; 
+    margin-top: 10px;
+   
+  }
+  
+  .img-main {
+    height: 400px;
+    object-fit: cover; 
+  }
+  
+
+  .product-para{
+    height: 200px;
+    width: 780px;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 20px;
+  }
+
+  h1{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .product-1{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .footer{
+    margin-top: 20px;
+   
+  }
+
+  .testimonial{
+    margin-top: 40px;
+  }
+
+
+
+/* Custom CSS */
+/* ... (Your existing styles) */
+
+/* Add these styles to your existing CSS */
+#darkModeToggle {
+  margin-left: auto;
+}
+
+@media (max-width: 991px) {
+  #darkModeToggle {
+      margin-right: 10px; /* Adjust as needed */
+  }
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #1a1a1a; /* Dark background color */
+  color: #ffffff; /* Light text color */
+}
+
+
